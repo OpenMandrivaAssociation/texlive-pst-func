@@ -69,6 +69,7 @@ as well.
 %doc %{_texmfdistdir}/doc/generic/pst-func/pst-func-doc.tex
 #- source
 %doc %{_texmfdistdir}/source/generic/pst-func/Makefile
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -79,3 +80,5 @@ as well.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
