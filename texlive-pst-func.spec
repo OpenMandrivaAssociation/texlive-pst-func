@@ -1,12 +1,12 @@
-# revision 31038
+# revision 32892
 # category Package
 # catalog-ctan /graphics/pstricks/contrib/pst-func
-# catalog-date 2012-04-10 17:31:04 +0200
+# catalog-date 2014-02-01 21:40:43 +0100
 # catalog-license lppl
-# catalog-version 0.76
+# catalog-version 0.77
 Name:		texlive-pst-func
-Version:	0.76
-Release:	7
+Version:	0.77
+Release:	1
 Summary:	PSTricks package for plotting mathematical functions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-func
@@ -20,24 +20,24 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-pst-func is a package built for use with PSTricks. It provides
-macros for plotting various mathematical functions: -
-polynomials and their derivatives f(x)=an*x^n+an-1*x^(n-
-1)+...+a0 defined by the coefficients a0 a1 a2 ... and the
-derivative order; - the Fourier sum f(x) = a0/2+a1cos(omega
-x)+...+b1sin(omega x)+... defined by the coefficients a0 a1 a2
-... b1 b2 b3 ...; - the Bessel function defined by its order; -
-the Gauss function defined by sigma and mu; - Bezier curves
-from order 1 (two control points) to order 9 (10 control
-points); - the superellipse function (the Lame curve); -
-Chebyshev polynomials of the first and second kind; - the
-Thomae (or popcorn) function; - various integration-derived
-functions; - normal, binomial, poisson, gamma, chi-squared,
+The package is built for use with PSTricks. It provides macros
+for plotting various mathematical functions: polynomials and
+their derivatives f(x)=an*x^n+an-1*x^(n-1)+...+a0 defined by
+the coefficients a0 a1 a2 ... and the derivative order; the
+Fourier sum f(x) = a0/2+a1cos(omega x)+...+b1sin(omega x)+...
+defined by the coefficients a0 a1 a2 ... b1 b2 b3 ...; the
+Bessel function defined by its order; the Gauss function
+defined by sigma and mu; Bezier curves from order 1 (two
+control points) to order 9 (10 control points); the
+superellipse function (the Lame curve); Chebyshev polynomials
+of the first and second kind; the Thomae (or popcorn) function;
+the Weierstrass function; various integration-derived
+functions; normal, binomial, poisson, gamma, chi-squared,
 student's t, F, beta, Cauchy and Weibull distribution functions
-and the Lorenz curve; - the Vasicek function for describing the
-evolution of interest rates; and - implicit functions. The
-plots may be generated as volumes of rotation about the X-axis,
-as well.
+and the Lorenz curve; the Vasicek function for describing the
+evolution of interest rates; and implicit functions. The plots
+may be generated as volumes of rotation about the X-axis, as
+well.
 
 %post
     %{_sbindir}/texlive.post
