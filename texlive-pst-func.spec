@@ -1,12 +1,6 @@
-# revision 34156
-# category Package
-# catalog-ctan /graphics/pstricks/contrib/pst-func
-# catalog-date 2014-05-19 15:05:30 +0200
-# catalog-license lppl
-# catalog-version 0.80
 Name:		texlive-pst-func
-Version:	0.80
-Release:	4
+Version:	0.88
+Release:	1
 Summary:	PSTricks package for plotting mathematical functions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-func
@@ -49,15 +43,10 @@ volumes of rotation about the X-axis, as well.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/dvips/pst-func/pst-func.pro
-%{_texmfdistdir}/tex/generic/pst-func/pst-func.tex
-%{_texmfdistdir}/tex/latex/pst-func/pst-func.sty
-%doc %{_texmfdistdir}/doc/generic/pst-func/Changes
-%doc %{_texmfdistdir}/doc/generic/pst-func/README
-%doc %{_texmfdistdir}/doc/generic/pst-func/pst-func-doc.bib
-%doc %{_texmfdistdir}/doc/generic/pst-func/pst-func-doc.data
-%doc %{_texmfdistdir}/doc/generic/pst-func/pst-func-doc.pdf
-%doc %{_texmfdistdir}/doc/generic/pst-func/pst-func-doc.tex
+%{_texmfdistdir}/dvips/pst-func
+%{_texmfdistdir}/tex/generic/pst-func
+%{_texmfdistdir}/tex/latex/pst-func
+%doc %{_texmfdistdir}/doc/generic/pst-func
 
 #-----------------------------------------------------------------------
 %prep
