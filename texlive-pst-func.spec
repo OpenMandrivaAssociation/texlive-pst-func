@@ -1,6 +1,6 @@
 Name:		texlive-pst-func
 Version:	60933
-Release:	1
+Release:	2
 Summary:	PSTricks package for plotting mathematical functions
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-func
