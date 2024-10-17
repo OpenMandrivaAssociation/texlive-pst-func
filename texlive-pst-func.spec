@@ -3,7 +3,7 @@ Version:	70822
 Release:	1
 Summary:	PSTricks package for plotting mathematical functions
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-func
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-func
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-func.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-func.doc.r%{version}.tar.xz
